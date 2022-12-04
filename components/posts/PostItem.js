@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 import classes from './postItem.module.css';
 
@@ -20,7 +19,7 @@ const PostItem = props => {
       <Link href={linkPath}>
         <a>
           <div className={classes.image}>
-            <Image
+            <img
               src={imagePath}
               alt={title}
               width={300}
