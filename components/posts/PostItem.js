@@ -20,6 +20,7 @@ const PostItem = props => {
         <a>
           <div className={classes.image}>
             <img
+              loading='lazy'
               src={imagePath}
               alt={title}
               width={300}

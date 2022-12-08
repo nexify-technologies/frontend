@@ -10,6 +10,7 @@ const Hero = () => {
           alt="An image showing Max"
           width={300}
           height={300}
+          loading="lazy"
         />
       </div>
       <h1>Hi, I'm Partha</h1>

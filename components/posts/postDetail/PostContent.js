@@ -25,6 +25,7 @@ const PostContent = props => {
         return (
           <div className={classes.image}>
             <img
+              loading='lazy'
               src={`/images/posts/${post.slug}/${image.url}`}
               alt={image.alt}
               width={600}
