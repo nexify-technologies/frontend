@@ -43,7 +43,7 @@ const PostContent = props => {
         <SyntaxHighlighter
           style={atomDark}
           language={language}
-          children={value}
+          // children={value}
         />
       );
     },
