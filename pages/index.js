@@ -3,8 +3,14 @@ import Head from 'next/head';
 import FeaturedPosts from '../components/homePage/FeaturedPosts';
 import Hero from '../components/homePage/Hero';
 import { getFeaturedPosts } from '../lib/postsUtil';
+import {animateNav} from '../lib/handleNavAnimation';
 
 const HomePage = props => {
+  if(process.browser){
+    window.onscroll = function () {
+      animateNav(document);
+    }
+  }
   return (
     <Fragment>
       <Head>

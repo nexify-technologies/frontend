@@ -1,17 +1,9 @@
-
 import classes from './hero.module.css';
 
 const Hero = () => {
   return (
     <section className={classes.hero}>
       <div className={classes.image}>
-        <img
-         src="/images/site/partha.jpg"
-          alt="An image showing Max"
-          width={300}
-          height={300}
-          loading="lazy"
-        />
       </div>
       <h1>{"Hi, I'm Partha"}</h1>
       <p>
