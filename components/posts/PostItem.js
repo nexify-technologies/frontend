@@ -17,7 +17,6 @@ const PostItem = props => {
   return (
     <li className={classes.post}>
       <Link href={linkPath}>
-        <a>
           <div className={classes.image}>
             <img
               loading='lazy'
@@ -33,7 +32,6 @@ const PostItem = props => {
             <time>{formattedDate}</time>
             <p>{excerpt}</p>
           </div>
-        </a>
       </Link>
     </li>
   );

@@ -13,7 +13,7 @@ const Hero = () => {
           loading="lazy"
         />
       </div>
-      <h1>Hi, I'm Partha</h1>
+      <h1>{"Hi, I'm Partha"}</h1>
       <p>
         I blog about web development - especially frontend frameworks like
         Angular or React.
