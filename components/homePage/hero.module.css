@@ -5,7 +5,10 @@
     var(--color-grey-900),
     var(--color-grey-800)
   );
+  background-image: url("/images/site/main.jpg");
+  background-position: center top;
   padding: var(--size-8) 0;
+  height: 100vh;
 }
 
 .image {
@@ -16,6 +19,7 @@
   overflow: hidden;
   background-color: var(--color-grey-700);
   margin: auto;
+  opacity: 0;
 }
 
 .image img {
@@ -28,7 +32,12 @@
 .hero h1 {
   font-size: var(--size-16);
   margin: var(--size-4) 0;
-  color: var(--color-grey-300);
+  /* color: var(--color-grey-300); */
+  color: var(--black);
+  width: 50%;
+  background-color: lightyellow;
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
 .hero p {
@@ -37,4 +46,5 @@
   width: 90%;
   max-width: 40rem;
   margin: auto;
+  opacity: 0;
 }

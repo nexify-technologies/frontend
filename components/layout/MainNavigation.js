@@ -4,7 +4,7 @@ import classes from './mainNavigation.module.css';
 
 const MainNavigation = () => {
   return (
-    <header className={classes.header}>
+    <header className={classes.header} id="nav">
       <Link href="/">
           <Logo />
       </Link>

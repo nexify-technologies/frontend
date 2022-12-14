@@ -1,3 +1,6 @@
+body{
+  background-attachment: fixed;
+}
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -6,6 +9,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .main {
   padding: 5rem 0;
